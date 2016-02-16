@@ -1,0 +1,13 @@
+CB-10235 Added clearer error message for info command.
+
+- Cordova RTC work item number: 96553
+- Apache Cordova Jira issue: https://issues.apache.org/jira/browse/CB-10235
+- Markmail / Google Group / StackOverflow reference:
+- IBM PMR: 9X999,999,000
+- Worklight RTC work item number: (APAR) 91265
+- Cherry-pick: 38415d0e3c21dda2acf6f80e4b5a681f5313810b
+- Full description: If the Android SDK is not set up properly on the user's 
+environment, certain Cordova commands such as 'info' that depends on the 
+Android SDK will error out with an unhelpful message. The message for the
+info command should be modified with a more helpful message to guide the 
+user to fix their Android SDK setup. 
